@@ -7,11 +7,11 @@
 Passionate about building intelligent, impactful software — currently deep in AI/ML while sharpening my engineering fundamentals.
 
 <div align="center">
-  <img src="banner.png" width="600"/>
+  <img src="./banner.png" width="500" alt="Hiba's banner">
 </div>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hiba-zoubir-2931b5276/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:h.zoubir@esi-sba.dz)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=h.zoubir@esi-sba.dz)
 
 </div>
 
