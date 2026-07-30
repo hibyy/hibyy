@@ -7,7 +7,7 @@
 Passionate about building intelligent, impactful software — currently deep in AI/ML while sharpening my engineering fundamentals.
 
 <div align="center">
-  <img src="banner.gif" width="600"/>
+  <img src="ban.gif" width="600"/>
 </div>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hiba-zoubir-2931b5276/)
