@@ -83,10 +83,17 @@ Passionate about building intelligent, impactful software — currently deep in 
 
 ---
 
-## 🚧 Projects
-
-I'm currently organizing my project portfolio properly — polished write-ups and repos are on their way. Check back soon!
-
+## 🚀 Featured Project
+ 
+### 🤟 Sign Language Production & Recognition System
+*Final-year project — bidirectional sign-language communication system*
+ 
+A full-scope system enabling communication between hearing and hearing-impaired people in both directions: **text/voice → sign language video** and **sign language → text**, wrapped in a working app. Led the **pose-to-video generation phase** on the production side — building a bridge between a custom 151-joint skeleton tensor format and MediaPipe Holistic's `.pose` format, then iterating through multiple generation architectures (Pix2Pix GAN, ControlNet + AnimateDiff, ControlNet + IP-Adapter) before landing on **ControlNet + Stable Diffusion 1.5** as the final approach. Applied memory optimizations (DDIM sampling, xFormers, attention slicing, VAE tiling) to run it on a single Tesla T4 GPU, plus contributed compatibility fixes to open-source libraries used in the pipeline.
+ 
+`Python` `PyTorch` `Stable Diffusion` `ControlNet` `MediaPipe` `Computer Vision` `NLP`
+ 
+🔗 [Repository](https://github.com/hibyy/sign-language-production)
+ 
 ---
 
 <div align="center">
