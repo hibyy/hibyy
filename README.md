@@ -95,6 +95,62 @@ A full-scope system enabling communication between hearing and hearing-impaired 
 🔗 [Repository](https://github.com/hibyy/sign-language-production)
  
 ---
+ 
+### 📝 Smart Notes Generator: Audio to Impact
+*NLP project — audio-to-notes pipeline for students*
+ 
+An AI-powered workspace that turns spoken audio into structured, actionable notes: **Whisper ASR** for transcription, feeding into a **BART model fine-tuned on the SAMSum dataset** for summarization, wrapped in a Streamlit interface. Worked on the **summarization and evaluation side** — fine-tuning and testing the BART-SAMSum model.
+ 
+`Python` `NLP` `Whisper` `BART` `Transformers` `Streamlit`
+ 
+🔗 [GitHub Repository](https://github.com/hibyy/Smart-Notes-Generator) · [Kaggle Notebook (Summarization + Evaluation)](https://www.kaggle.com/code/hibazoubir/summarization-evaluation)
+ 
+---
+ 
+### 🎓 ESI PFE Management Platform
+*1CS project — ESI Sidi Bel Abbès*
+ 
+A full-stack web application for managing final-year (PFE) projects at ESI Sidi Bel Abbès, built around three role-based sessions:
+- **Teacher:** submit project proposals, track and evaluate student teams, communicate with students, submit defense authorizations
+- **Student:** form and validate project teams, submit subject preferences, upload deliverables
+- **Administrator:** manage accounts and access rights, validate PFEs, assign defense juries, record defense minutes
+`Vue.js` `Node.js` `Express` `MySQL` `HTML5` `CSS3` `JavaScript`
+ 
+🔗 [Repository](https://github.com/hibyy/University-project-management-web-application)
+ 
+---
+ 
+### ⚙️ Predictive Maintenance — Association Rule Mining
+*Apriori & FP-Growth on industrial sensor data*
+ 
+A predictive maintenance system that mines sensor telemetry and error logs to uncover precursor patterns for component failures, deployed as an interactive Streamlit app for real-time risk assessment. Discovered **287 strong association rules** (e.g. high vibration + error2 → bearing failure), and benchmarked **FP-Growth as 3.5x faster than Apriori** on the full telemetry dataset (~876K records across 100 machines), tuned to a 0.60 min-confidence threshold (F1-score 76.8).
+ 
+`Python` `mlxtend` `pandas` `Streamlit` `Association Rule Mining`
+ 
+🔗 [Repository](https://github.com/hibyy/SmartMaintenance-PredictiveMaintenanceSystem)
+ 
+---
+ 
+### ⚙️ Predictive Maintenance — MLOps Pipeline
+*Production-style ML pipeline for equipment failure prediction*
+ 
+A separate, MLOps-focused approach to the same predictive maintenance problem — building out a full production pipeline (data ingestion, training, evaluation, deployment) rather than the rule-mining approach used above.
+ 
+`Python` `MLOps`
+ 
+🔗 [Repository](https://github.com/hibyy/PredictiveMaintenanceSystem_with_mlops)
+ 
+### 🧵 NEEDLE — Tailor & Client Marketplace
+
+*Mobile application — ESI Sidi Bel Abbès, 2nd Year Academic Project*
+
+A mobile marketplace designed to connect clients with independent tailors. Clients can discover tailors, browse their work, place custom orders, communicate with tailors, and create their own outfit designs. Tailors can manage their profiles, showcase their work, and receive and manage client requests.
+
+Worked as a **Frontend Developer**, developing the mobile client interface with Flutter and implementing the initial **authentication flow**, including user sign-up and login.
+
+`Flutter` `Dart` `Node.js` `Express` `MongoDB` `Socket.IO`
+
+🔗 [Repository](https://github.com/Djamel-Edn/Tailor-Client-Final)
 
 <div align="center">
 
